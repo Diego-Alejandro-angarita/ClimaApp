@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(151, 166, 213);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.aplicación{
+    background-color: rgb(175, 226, 232);
+    max-width: 600px;
+    margin: 50% auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputCiudad{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    color: rgb(16, 5, 5);
+    font-size: 1.5rem;
+}
+
+.botonBuscar{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.imgBuscar{
+    width: 50%;
+    background-color: rgb(76, 76, 145);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fecha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ciudad{
+    font-size: 2rem;
+    color: rgb(96, 116, 195);
+}
+
+.fechaActual{
+    font-size: 1.5rem;
+    color: rgb(96, 116, 195);
+}
+
+.infoTemperatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 25%; 
+}
+
+.descripcion{
+    display: flex;
+    align-items: center; 
+}
+
+.aplicación .imgNubes{
+    width: 50%;
+    background-color:    transparent;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.aplicación .textoDesc{
+    font-size: 2.5rem;
+    color: rgb(96, 116, 195);
+    padding-left: 20px;
+}
+
+.temperatura{
+    font-size: 5rem;
+    color: rgb(96, 116, 195);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.informaciónAdicional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.aplicación .imgViento .imgHumedad .imgVisiblidad{
+    width: 50%;
+    background-color:    transparent;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.aplicación .velocdad, .humedad, .distanciaVisibilidad{
+    text-align: center;
+}
+
+.textoViento, .textoHumedad, .visibilidad{
+    text-align: center;
+    color: rgb(7, 7, 8);
+}
+
+.velocidadInfo, .humedadInfo, .visibilidadInfo{
+    background-color: rgb(178, 219, 224);
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: rgba(119, 132, 177, 0.947) 0px 3px 8px;
+}

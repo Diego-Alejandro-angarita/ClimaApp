@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplicación del clima</title>
+</head>
+<body>
+    <div class="aplicación">
+        <form action="" id="formulario">
+            <input type="text" class="inputCiudad" placeholder="Ingresa tu ciudad" id="inputCiudad">
+            <button class="botonBuscar" id="botonBuscar" type="submit">
+                <img src="./iconos/search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="buscar" class="imgBuscar">
+            </button>
+        </form>
+
+        <div class="fecha">
+            <h2 class="ciudad" id="ciudad"></h2>
+            <p class="fechaActual" id="fechaActual"></p>
+        </div>
+        <div class="infoTemperatura">
+            <div class="descripcion">
+                <img src="./iconos/cloud_24dp_AAC1F0_FILL0_wght400_GRAD0_opsz24.png" alt="nubes" class="imgNubes">
+                <span class="textoDesc" id="status"></span>
+            </div>
+            <div class="temperatura" id="temperatura"></div>
+        </div>
+        <div class="informaciónAdicional">
+            <div class="velocidadInfo">
+                <img src="./iconos/air_24dp_80A4AE_FILL0_wght400_GRAD0_opsz24.png" alt="viento" class="imgViento">
+                <div>
+                    <h3 class="velocidad" id="velocidad"></h3>
+                    <p class="textoViento">viento</p>
+                </div>
+            </div>
+            <div class="humedadInfo">
+                <img src="./iconos/humidity_percentage_24dp_80A4AE_FILL0_wght400_GRAD0_opsz24.png" alt="humedad" class="imgHumedad">
+                <div>
+                    <h3 class="humedad" id="humedad"></h3>
+                    <p class="textoHumedad">porcentaje de humedad</p>
+                </div>
+            </div>
+            <div class="visibilidadInfo">
+                <img src="./iconos/visibility_24dp_80A4AE_FILL0_wght400_GRAD0_opsz24.png" alt="visibilidad" class="imgVisiblidad">
+                <div>
+                    <h3 class="distanciaVisibilidad" id="visibilidad"></h3>
+                    <p class="visibilidad">visibilidad</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
